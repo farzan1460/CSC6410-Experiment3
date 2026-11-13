@@ -1,0 +1,230 @@
+{
+    "student-host:host": {
+        "hostname": "DESKTOP-S75CK0H",
+        "os": "windows",
+        "collected-at": "2026-11-12T17:49:52.286912-06:00",
+        "interface": [
+            {
+                "name": "Loopback Pseudo-Interface 1",
+                "type": "loopback",
+                "oper-status": "up",
+                "ipv4": [
+                    "127.0.0.1/8"
+                ],
+                "ipv6": [
+                    "::1/128"
+                ],
+                "mtu": 4294967295
+            },
+            {
+                "name": "Ethernet 2",
+                "type": "virtual",
+                "oper-status": "up",
+                "ipv4": [
+                    "192.168.56.1/24"
+                ],
+                "ipv6": [
+                    "fe80::b37b:57a5:5126:ccb8/64"
+                ],
+                "mac": "0a:00:27:00:00:02",
+                "mtu": 1500
+            },
+            {
+                "name": "6to4 Adapter",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Bluetooth Network Connection",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.252.192/16"
+                ],
+                "ipv6": [
+                    "fe80::f9ff:615d:9930:a012/64"
+                ],
+                "mac": "48:e7:da:ce:c9:60",
+                "mtu": 1500
+            },
+            {
+                "name": "Local Area Connection* 8",
+                "type": "other",
+                "oper-status": "up",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Microsoft IP-HTTPS Platform Interface",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Ethernet (Kernel Debugger)",
+                "type": "ethernet",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Wi-Fi",
+                "type": "wifi",
+                "oper-status": "up",
+                "ipv4": [
+                    "192.168.12.14/24"
+                ],
+                "ipv6": [],
+                "mac": "48:e7:da:ce:c9:61",
+                "mtu": 1500
+            },
+            {
+                "name": "Local Area Connection* 9",
+                "type": "other",
+                "oper-status": "up",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 6",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 2",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.255.216/16"
+                ],
+                "ipv6": [
+                    "fe80::af96:27f:4e73:ff99/64"
+                ],
+                "mac": "ca:e7:da:ce:c9:61",
+                "mtu": 1500
+            },
+            {
+                "name": "Local Area Connection* 3",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "OpenVPN Data Channel Offload for NordVPN",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.177.196/16"
+                ],
+                "ipv6": [
+                    "fe80::2f33:c9f7:356b:552/64"
+                ],
+                "mtu": 1500
+            },
+            {
+                "name": "Local Area Connection* 1",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.58.165/16"
+                ],
+                "ipv6": [
+                    "fe80::7ebd:219d:b849:f719/64"
+                ],
+                "mac": "4a:e7:da:ce:c9:61",
+                "mtu": 1500
+            },
+            {
+                "name": "Teredo Tunneling Pseudo-Interface",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 4",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 10",
+                "type": "other",
+                "oper-status": "up",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 7",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection* 5",
+                "type": "other",
+                "oper-status": "down",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "Local Area Connection",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.252.252/16"
+                ],
+                "ipv6": [
+                    "fe80::2d8a:b6bd:fe84:ee1d/64"
+                ],
+                "mac": "00:ff:f4:aa:da:2f",
+                "mtu": 1500
+            },
+            {
+                "name": "NordLynx",
+                "type": "virtual",
+                "oper-status": "down",
+                "ipv4": [
+                    "169.254.5.254/16",
+                    "10.5.0.2/16"
+                ],
+                "ipv6": [
+                    "fe80::2f33:c9f7:356b:552/64"
+                ],
+                "mtu": 1350
+            },
+            {
+                "name": "vSwitch (WSL (Hyper-V firewall))",
+                "type": "virtual",
+                "oper-status": "up",
+                "ipv4": [],
+                "ipv6": []
+            },
+            {
+                "name": "vEthernet (WSL (Hyper-V firewall))",
+                "type": "virtual",
+                "oper-status": "up",
+                "ipv4": [
+                    "172.28.144.1/20"
+                ],
+                "ipv6": [
+                    "fe80::b1c1:abdc:f1ac:2cdb/64"
+                ],
+                "mac": "00:15:5d:2d:db:82",
+                "mtu": 1500
+            }
+        ],
+        "default-gateway": "192.168.12.1",
+        "dns-server": [
+            "192.168.12.1"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "student-host:host": {
+        "os": "windows",
+        "default-gateway": "192.168.12.1",
+        "dns-server": [
+            "192.168.12.1"
+        ],
+        "interface": [
+            {
+                "name": "Wi-Fi",
+                "type": "wifi",
+                "oper-status": "up",
+                "mtu": 1500
+            },
+            {
+                "name": "Ethernet 2",
+                "type": "virtual",
+                "oper-status": "up",
+                "mtu": 1500
+            },
+            {
+                "name": "NordLynx",
+                "type": "virtual",
+                "oper-status": "down",
+                "mtu": 1350
+            }
+        ]
+    }
+}

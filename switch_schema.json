@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "campus-switch configuration (JSON Schema written by hand from campus-switch.yang)",
+  "type": "object",
+  "required": ["campus-switch:switch"],
+  "additionalProperties": false,
+  "properties": {
+    "campus-switch:switch": {
+      "type": "object",
+      "required": ["hostname"],
+      "additionalProperties": false,
+      "properties": {
+        "hostname": {"type": "string", "minLength": 1, "maxLength": 63},
+        "vlan": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name"],
+            "additionalProperties": false,
+            "properties": {
+              "id": {"type": "integer", "minimum": 1, "maximum": 4094},
+              "name": {"type": "string", "minLength": 1, "maxLength": 32},
+              "enabled": {"type": "boolean", "default": true}
+            }
+          }
+        },
+        "interface": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {"type": "string"},
+              "description": {"type": "string", "maxLength": 80},
+              "mtu": {"type": "integer", "minimum": 68, "maximum": 9216, "default": 1500},
+              "access-vlan": {"type": "integer"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

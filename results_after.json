@@ -1,0 +1,9 @@
+{
+    "collection_seconds": 10.242700000060722,
+    "interface_count": 23,
+    "schema_error_count": 0,
+    "drift_count": 1,
+    "differences": [
+        "interface Wi-Fi/oper-status: intended=up, observed=down"
+    ]
+}
